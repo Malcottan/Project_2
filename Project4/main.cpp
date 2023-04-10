@@ -20,8 +20,12 @@ int main()
     }
     cout << "Number of digits: " << k << endl;
     if (k == 3){
-        cout << "Sum of numbers: " << "1" << endl;
-        cout << "Output numbers: " << ("1  0") << endl;
+        if (x != 100){
+            cout << "Error: a != a<=100" << endl;
+        } else{
+            cout << "Sum of numbers: " << "1" << endl;
+            cout << "Output numbers: " << ("1  0") << endl;
+        }
     } 
     if (k == 2){
         w = (x % 10);
